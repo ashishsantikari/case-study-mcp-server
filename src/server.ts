@@ -9,7 +9,7 @@ export async function startServer(configPath?: string): Promise<void> {
   registry.load(configPath);
 
   const server = new McpServer({
-    name: "enpal-internal-knowledge",
+    name: "acme-energy-knowledge",
     version: "1.0.0",
   });
 
@@ -77,5 +77,5 @@ export async function startServer(configPath?: string): Promise<void> {
 
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("Enpal Internal Knowledge MCP server running on stdio");
+  console.error("Acme Energy Knowledge MCP server running on stdio");
 }

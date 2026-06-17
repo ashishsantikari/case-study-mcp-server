@@ -1,12 +1,12 @@
 services:
   - id: legal
     name: Legal Knowledge Base
-    description: Contracts, policies, and regulatory information for Enpal renewable energy installations
+    description: Contracts, policies, and regulatory information for Acme Energy renewable energy installations
     markdown: src/services/legal/legal.md
 
   - id: hr
     name: HR Knowledge Base
-    description: Employee policies, benefits, leave, and workplace guidelines at Enpal
+    description: Employee policies, benefits, leave, and workplace guidelines at Acme Energy
     markdown: src/services/hr/hr.md
 
   - id: compliance
